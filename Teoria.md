@@ -9,7 +9,7 @@
 ## Porque Angular?
     Estrutura de organização do projeto bem definida, promove simplicidade e reaproveitamento de código.
     Sistema de tooling muito rico: CLI, módulo HTTP, router e outros.
-        CLI - permite digitar comandos a partir da linha de comando do terminal para execução de certas coisas (criação de componentes)
+        > CLI - permite digitar comandos a partir da linha de comando do terminal para execução de certas coisas (criação de componentes)
         
     Integração nativa com TypeScript
     Mantido pelo Google
@@ -25,7 +25,7 @@
 
 # Hello Word
     Primeiramente, a instalação do CLI do Angular com: npm install -g @angular/cli
-        Permitindo criar os nossos projetos
+        > Permitindo criar os nossos projetos
 
     Criar projeto, utilizando o: ng new <project name>
     Para testar o projeto basta digitar o comando: ng serve
