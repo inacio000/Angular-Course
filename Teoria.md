@@ -1,5 +1,5 @@
 ## O que é...
-    -> Um framework com base na linguagem JavaScript
+    Um framework com base na linguagem JavaScript
     -> Utilizado para criação de SPAs
     -> Possui arquitetura baseada em componentes 
     -> Muito utilizado em aplicações de grande porte
