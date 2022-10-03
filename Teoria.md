@@ -6,7 +6,7 @@
 * Compõe a stack MEAN;
 * Angular 2+ é versão diferente do AngularJS (CLÁSSICO);
 
-### Porque Angular?
+### Por que Angular?
 * Estrutura de organização do projeto bem definida, promove simplicidade e reaproveitamento de código.
 * Sistema de tooling muito rico: CLI, módulo HTTP, router e outros.
 
