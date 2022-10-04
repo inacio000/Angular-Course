@@ -13,5 +13,4 @@ export class IfRenderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
