@@ -1,4 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
+    padding-bottom: 500px;
     background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.class {
+    border: 1px solid goldenrod;
+    padding: 2em;
+    margin-bottom: 1em;
 }
