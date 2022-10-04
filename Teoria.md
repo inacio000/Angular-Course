@@ -1,6 +1,6 @@
 ### O que é...
 * Um framework com base na linguagem JavaScript;
-* Utilizado para criação de SPAs;
+* Utilizado para criação de SPAs (Single Page Aplications);
 * Possui arquitetura baseada em componentes;
 * Muito utilizado em aplicações de grande porte
 * Compõe a stack MEAN;
