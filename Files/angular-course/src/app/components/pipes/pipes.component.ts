@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class PipesComponent implements OnInit {
   someText = 'TESTING PIP OPERATOR';
 
+  today = new Date();
+
   constructor() { }
 
   ngOnInit(): void {

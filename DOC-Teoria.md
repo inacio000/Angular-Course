@@ -116,3 +116,25 @@
 * Podemos realizar diversas funções, como deixar o texto em caixa alta;
 * A sintaxe é: `{{ dado | algumPipeOperator }}`
 * Desta forma nos poupamos de regras de CSS ou manipulação de strings com JS;
+#
+# Two way data binding
+* O `Two way data binding` é um recurso muito interessante para trabalho com formulário;
+* Basicamente conseguimos alterar props e o template com preenchimento de `inputs`;
+* É necessário importar o `FormsModule` no componente principal;
+* E tamebém declarar o `ngModel` no `input`, além de preencher também o atributo name, todos com o mesmo valor;
+#
+# Services
+* O `Service` é outra parte fundamental da arquitetura do Angular;
+* Geralmente é onde ficam as requisições para as APIs que utilizamos no projeto; 
+* Precisa-se criar o service com(cli):
+* > `ng generate service <name>`
+* Importar no componente e iniciar no `constructor`
+* Depois é possível acessar os método dele;
+#
+# Angular Router
+* Nós vamos criar um novo arquivo para declarar nossas rotas;
+* Nele vamos importar os módulos `RouterModule` e `Routes`
+* Após a definição estas rotas precisam ser importadas em `app/module.ts`
+* E por fim no `template` principal criamos as rotas;
+* E substituimos os componentes por: 
+* > `<router-outlet>`
