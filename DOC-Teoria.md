@@ -137,4 +137,4 @@
 * Após a definição estas rotas precisam ser importadas em `app/module.ts`
 * E por fim no `template` principal criamos as rotas;
 * E substituimos os componentes por: 
-* > `<router-outlet>`
+* > <router-outlet>
