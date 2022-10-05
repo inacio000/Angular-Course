@@ -70,18 +70,18 @@
 #
 # Compartilhando dados
 * Em Angular podemos compartilhar dados do componente PAI com o componente Filho
-* Para isso, vamos disponibilizar na chamada do componente o nome do dado que será recebido com a seguinte sintaxe: [dado];
+* Para isso, vamos disponibilizar na chamada do componente (html global) o nome do dado que será recebido com a seguinte sintaxe: [dado];
 * E no código .ts do componente filho vamos utilizar o decorator @Input, que tem como papel entregar o dado para o template;
 #
 # Diretivas
 * Em Angular temos um recurso chamado diretivas;
-* Que podem realizar diversas funções no sistema, como "aplicar estilos a um elemento";
-* Elas começam sempre com ng, o nome fica como: <tag [ngAlgumaCoisa]></tag>;
+* Que podem realizar diversas funções no sistema, como "aplicar estilos a um elemento" (como estilos inline);
+* Elas começam sempre com ng, o nome fica como: <tag [ngAlgumaCoisa]="{'font-family': variableName}"></tag>;
 #
 # Renderização condicional
 * É possível exibir determinado conteúdo por meio de uma condicional;
-* Utilizamos a diretiva <tag [nglf]></tag> para isso;
-* Os valores podem ser dinâmicos(propriedades), mas podemos realizar outros tipos de comparação;
+* Utilizamos a diretiva <tag *ngIf="condition"></tag> para isso;
+* Os valores podem ser dinâmicos(propriedades), mas podemos realizar outros tipos de comparações;
 * Há a possibilidade também de imprimir um cenário para validação de falso, com o else;
 #
 # Eventos

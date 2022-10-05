@@ -4,13 +4,14 @@
     </div>
     <h2 
         *ngIf="name === 'IMR'; 
-        else nameNotFound">
+            else nameNotFound"
+    >
         The name is IMR
     </h2>
     <ng-template 
         #nameNotFound
     >
-        <h3>The name was not found</h3>
+        <h3>{{ name }} was not found</h3>
         
     </ng-template>
 </div>
