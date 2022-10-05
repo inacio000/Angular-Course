@@ -105,3 +105,14 @@
 * A sintaxe é:
 * > `*ngFor="let item of items"`
 * Desta maneira podemos renderizar template baseado em dados;
+#
+# A importância das interfaces (Recurso do TypeScript)
+* Toda entidade que irá se trabalhar com ele precisa de uma interface;
+* Isso vai tornar mosso código mais simples ao longo do programa;
+* Padronizando ele e facilitando a manutenção;
+#
+# Pipe operator
+* Os pipe operators são recursos para trabalhar com strings nos templates;
+* Podemos realizar diversas funções, como deixar o texto em caixa alta;
+* A sintaxe é: `{{ dado | algumPipeOperator }}`
+* Desta forma nos poupamos de regras de CSS ou manipulação de strings com JS;
