@@ -29,12 +29,12 @@
 
         Permitindo criar os nossos projetos;
 
-* Criar projeto, utilizando o: ng new <project name>
+* Criar projeto, utilizando o: ng new `<project name>`
 * Para testar o projeto basta digitar o comando: ng serve;
 * Podemos alterar os arquivos dentro da "pasta app"; para refletir mudanças no navegador;
 #
 ## Rodar um projeto
-> ng serve
+> `ng serve`
 #
 # Estrutura do Angular
 * O que é criado após um ng new(comando que faz a criação do projeto):
@@ -52,7 +52,7 @@
 #
 # Criação de componentes
 * Para criar componente podemos utilizar o CLI;
-* O comando é: ng generat <name>
+* O comando é: ng generat `<name>`
 * Todos os arquivos necessários serão criados no projeto;
 * Para importar o componente basta utiliar o seu selector em um HTML de outro componente;
 #
@@ -61,7 +61,7 @@
 * As variáveis serão criadas no arquivo .ts, dentro da classe;
 * Ou seja, estas variáveis são propriedades da classe;
 * E então teremos acesso a estes dados no arquivo .html, o template;
-* A impressão é feita através de: {{ dado }}
+* A impressão é feita através de: `{{ dado }}`
 #
 # CSS no Angular
 * Os estilos em aplicações de Angular podem ser feitos de duas maneras;
@@ -70,23 +70,38 @@
 #
 # Compartilhando dados
 * Em Angular podemos compartilhar dados do componente PAI com o componente Filho
-* Para isso, vamos disponibilizar na chamada do componente (html global) o nome do dado que será recebido com a seguinte sintaxe: [dado];
+* Para isso, vamos disponibilizar na chamada do componente (html global) o nome do dado que será recebido com a seguinte sintaxe: `[dado]`;
 * E no código .ts do componente filho vamos utilizar o decorator @Input, que tem como papel entregar o dado para o template;
 #
 # Diretivas
 * Em Angular temos um recurso chamado diretivas;
 * Que podem realizar diversas funções no sistema, como "aplicar estilos a um elemento" (como estilos inline);
-* Elas começam sempre com ng, o nome fica como: <tag [ngAlgumaCoisa]="{'font-family': variableName}"></tag>;
+* Elas começam sempre com ng, o nome fica como: `<tag [ngAlgumaCoisa]="{'font-family': variableName}"></tag>`;
 #
 # Renderização condicional
 * É possível exibir determinado conteúdo por meio de uma condicional;
-* Utilizamos a diretiva <tag *ngIf="condition"></tag> para isso;
+* Utilizamos a diretiva `<tag *ngIf="condition"></tag>` para isso;
 * Os valores podem ser dinâmicos(propriedades), mas podemos realizar outros tipos de comparações;
 * Há a possibilidade também de imprimir um cenário para validação de falso, com o else;
 #
 # Eventos
 * Podemos ativar nos componentes para disparar algum método;
 * Um evento clássico que utilizamos é o click;
-* A sintaxe é: (click)="algumaFuncao();"
+* A sintaxe é: `(click)="algumaFuncao();`"
 * Os métodos ficam na classe;
 * Este recurso também é utilizado para acessar uma API;
+#
+# Emitindo eventos
+* Podemos comunicar eventos de um componente filho para o PAI;
+* Para isso precisa-se o `@Output`, que vai fazer a saida do evento co componente filho;
+* Na tag de invocação do componente no template, escolhemos um método para executar quando o evento for emitido;
+* Ex: 
+* > `(emit)="onEmit()"`
+#
+# Renderização de listas
+* Outro recurso importante é `loop` em listas;
+* Para isso precisa-se de uma propriedade com os itens da lista;
+* E no template do componente utiliza-se `*ngFor`
+* A sintaxe é:
+* > `*ngFor="let item of items"`
+* Desta maneira podemos renderizar template baseado em dados;
