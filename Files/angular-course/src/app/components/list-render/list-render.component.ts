@@ -33,7 +33,7 @@ export class ListRenderComponent implements OnInit {
     }
   ];
 
-  animalDetails = ''
+  animalDetails = '';
 
   constructor(private listService: ListService) { }
 

@@ -95,7 +95,7 @@
 #
 # Emitindo eventos
 * Podemos comunicar eventos de um componente filho para o PAI;
-* Para isso precisa-se o `@Output`, que vai fazer a saida do evento co componente filho;
+* Para isso precisa-se o `@Output`, que vai fazer a saida do evento com componente filho;
 * Na tag de invocação do componente no template, escolhemos um método para executar quando o evento for emitido;
 * Ex: 
 * > `(emit)="onEmit()"`
