@@ -30,7 +30,7 @@ export class ListRenderComponent implements OnInit {
       name: 'Bob', 
       type: 'Hrse',
       age: 3
-    }
+    } 
   ];
 
   animalDetails = '';
