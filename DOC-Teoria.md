@@ -80,7 +80,9 @@
 #
 # Renderização condicional
 * É possível exibir determinado conteúdo por meio de uma condicional;
-* Utilizamos a diretiva `<tag *ngIf="condition"></tag>` para isso;
+* Utilizamos a diretiva `<tag *ngIf="condition; else nameNotFound"></tag>` para isso;
+* Para renderisar o `else` utiliza-se:
+* `<ng-template #nameNotFound> <h3>{{ condition }} was not found </h3> </ng-template>`
 * Os valores podem ser dinâmicos(propriedades), mas podemos realizar outros tipos de comparações;
 * Há a possibilidade também de imprimir um cenário para validação de falso, com o else;
 #
