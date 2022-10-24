@@ -140,3 +140,9 @@
 * E por fim no `template` principal criamos as rotas;
 * E substituimos os componentes por: 
 * > `<router-outlet>`
+#
+# Requisição HTTP
+* Vamos realizar `requisições HTTP` nos serviços;
+* Precisamos importar dois pacotes: `HttpCliente` e `HttpHeaders`;
+* Neste exemplo utilizamos uma API local para simunlar as `request`, com o `json-server`;
+* Por último, é necessário inicializar o módulos `HttpClienteModule` em app.module.ts;

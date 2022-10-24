@@ -1,10 +1,10 @@
-<div class="class">
+<!-- <div class="class">
     <h1>Hello world</h1>
     <a href="#">Click here!</a>
 </div>
 
 <app-first-component></app-first-component>
-<!-- <app-second-component></app-second-component> -->
+<app-second-component></app-second-component>
 
 <app-parent-data [name]="userName" [userData]="userData"></app-parent-data>
 
@@ -16,10 +16,19 @@
 
 <app-emitter></app-emitter>
 
-<!-- <app-change-number></app-change-number> -->
+<app-change-number></app-change-number>
 
 <app-list-render></app-list-render>
 
 <app-pipes></app-pipes>
 
-<app-two-way-binding></app-two-way-binding>
+<app-two-way-binding></app-two-way-binding> -->
+<p>header</p>
+<nav>
+    <a routerLink="/">Home </a>
+    <a routerLink="/list">List</a>
+    <a routerLink="/change-number">  Change Number Page</a>
+</nav>
+<h1>Helo</h1>
+<router-outlet></router-outlet>
+<p>footer</p>
