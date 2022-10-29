@@ -152,3 +152,9 @@
 * `Baseado no id` do item teremos a seleção de dado no banco, geralmente o id vem pela `URL`;
 * Para resgatar parãmetros da URL vamos utilizar o `ActivatedRoute`, um módulo de Angular;
 * A lógica para requisição `HTTP` ficará no `service`;
+#
+# Deletando registro
+* Agora vamos refatorar nossa ação de remover registro com a `execução HTTP`;
+* Criando outro `método de srvice`;
+* E ajustaremos a maneira que o método da classe do componente é executado;
+* Com simples mudanças estaremos interagindo com a `API`;
